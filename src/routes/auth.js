@@ -13,7 +13,7 @@ authRouter.post("/signup", async (req, res) => {
       emailId,
       password,
       gender,
-      age,
+      age, 
       about,
       skills,
     } = req.body;
