@@ -7,13 +7,13 @@ const { validateSignUpData } = require("../utils/validation");
 authRouter.post("/signup", async (req, res) => {
   try {
     validateSignUpData(req);
-    const {
+    const {     
       firstname,
       lastname,
       emailId,
       password,
       gender,
-      age, 
+      age,     
       about,
       skills,
     } = req.body;
